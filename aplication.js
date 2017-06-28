@@ -37,6 +37,6 @@ var duplicate = function (array) {
 };
 
 var evaluateExpression = function (a, b, c) {
-    var expression = a + b + "("+ c +")";
+    var expression = a + c + "("+ b +")";
     return eval(expression);
 };
